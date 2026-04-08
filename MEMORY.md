@@ -190,14 +190,16 @@
 
 ```
 # 每30分钟：记忆同步（ai-agent-community）
-*/30 * * * * cd /workspace/projects/ai-agent-community && git pull origin main >> /workspace/projects/logs/memory-sync.log 2>&1
+*/30 * * * * cd /workspace/projects/ai-agent-community && git pull --ff-only origin main >> /workspace/projects/logs/memory-sync.log 2>&1
 
 # 每30分钟：小诸葛记忆同步
 */30 * * * * bash /workspace/projects/ai-agent-community/.scripts/sync-xiaozhuge-memory.sh >> /workspace/projects/logs/xiaozhuge-sync.log 2>&1
 
 # 每天9点：全面记忆同步
-0 9 * * * cd /workspace/projects/ai-agent-community && git pull origin main
+0 9 * * * cd /workspace/projects/ai-agent-community && git pull --ff-only origin main
 ```
+
+**注意**：统一使用 `--ff-only` 避免分支冲突
 
 ---
 
