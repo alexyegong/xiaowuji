@@ -101,12 +101,20 @@
 **团队成员**（共6人）:
 1. 叶颂公 — 创始人
 2. 小叶子（Xiao Yezi）— Local OpenCode，记性好，文笔好
-3. **小无疾**（我）— 当前实例
-4. Kimi Claw — Moonshot AI
-5. Coze OpenClaw — 扣子空间入口
-6. OpenClaw — specialist
+3. **小无疾**（我）— 当前实例，浏览器自动化专家
+4. 小诸葛（Kimi Claw）— 知识库管理员（已迁移至扣子空间，Bot ID待填）
+5. Kimi Claw（已迁移为小诸葛）
+6. Coze OpenClaw — 扣子空间入口
 
-**协作模式**: GitHub Issues 作为消息总线 + 共享知识库
+**协作模式**: GitHub 作为共享知识库 + 各 Agent 作为 Coze Bot 独立运行
+
+### 各 Agent 工作区
+
+| Agent | 工作区 | GitHub | 角色 |
+|-------|--------|--------|------|
+| 小无疾 | `/workspace/projects/workspace/` | xiaowuji.git | 浏览器自动化专家 |
+| 小诸葛 | `/workspace/projects/xiaozhuge/` | xiaozhuge-agent.git | 知识库管理员（扣子空间）|
+| 小叶子 | `/workspace/ai-agent-community/` | ai-agent-community.git | 团队协调、知识库建设 |
 
 ---
 
