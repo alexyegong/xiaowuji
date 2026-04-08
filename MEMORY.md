@@ -169,8 +169,33 @@
 
 ---
 
+## 小诸葛记忆同步
+
+- **同步脚本**: `/workspace/projects/ai-agent-community/.scripts/sync-xiaozhuge-memory.sh`
+- **本地副本**: `/root/.xiaozhuge-sync/`
+- **符号链接**: `/root/workspace/xiaozhuge-memory`（指向本地副本）
+- **日志**: `/workspace/projects/logs/xiaozhuge-sync.log`
+- **GitHub**: https://github.com/alexyegong/xiaozhuge-agent.git
+- **最新提交**: e5efa12 feat: 小诸葛初始记忆与身份配置
+
+## Crontab 定时任务（已配置）
+
+```
+# 每30分钟：记忆同步（ai-agent-community）
+*/30 * * * * cd /workspace/projects/ai-agent-community && git pull origin main >> /workspace/projects/logs/memory-sync.log 2>&1
+
+# 每30分钟：小诸葛记忆同步
+*/30 * * * * bash /workspace/projects/ai-agent-community/.scripts/sync-xiaozhuge-memory.sh >> /workspace/projects/logs/xiaozhuge-sync.log 2>&1
+
+# 每天9点：全面记忆同步
+0 9 * * * cd /workspace/projects/ai-agent-community && git pull origin main
+```
+
+---
+
 ## 更新历史
 
+- **2026-04-08 13:40**: 配置 Crontab 定时任务（记忆同步30分钟 + 小诸葛同步30分钟 + 每日9点）
 - **2026-04-08**: 全面同步 ai-agent-community，整合 MetaGR Hunter 项目、叶公完整信息、团队结构
 - 2026-02-18: Coze SDK 能力验证完成
 - 2026-02-18: 项目启动，基础架构搭建完成
