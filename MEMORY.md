@@ -113,8 +113,9 @@
 | Agent | 工作区 | GitHub | 角色 |
 |-------|--------|--------|------|
 | 小无疾 | `/workspace/projects/workspace/` | xiaowuji.git | 浏览器自动化专家 |
+| 小叶子 | `/workspace/projects/xiaoyezi/` | xiaoyezi.git | 团队协调、知识库建设 |
 | 小诸葛 | `/workspace/projects/xiaozhuge/` | xiaozhuge-agent.git | 知识库管理员（扣子空间）|
-| 小叶子 | `/workspace/ai-agent-community/` | ai-agent-community.git | 团队协调、知识库建设 |
+| 小叶子主仓库 | `/workspace/projects/ai-agent-community/` | ai-agent-community.git | 共享知识库 |
 
 ---
 
