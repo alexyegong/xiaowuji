@@ -1,0 +1,40 @@
+# AI
+*.jsonl
+sessions/
+*.sqlite
+*.db
+
+# Browser
+browser/
+openclaw.json
+openclaw.json.bak*
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+assets/
+*.pdf
+*.mp3
+*.mp4
+*.zip
+
+# Nested git repos
+ai-agent-messages/
+workspace/
+
+# Secrets
+*.pem
+*.p12
+.env
+*secret*
+*token*
+*credential*
+GITHUB_TEAM_CONFIG.md
+GITHUB_CONFIG_COMPLETED.md
+GITHUB_CONFIG_SUMMARY.md
