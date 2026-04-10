@@ -38,3 +38,7 @@ workspace/
 GITHUB_TEAM_CONFIG.md
 GITHUB_CONFIG_COMPLETED.md
 GITHUB_CONFIG_SUMMARY.md
+
+# Nested git repos
+evolver/
+health-data-platform/
