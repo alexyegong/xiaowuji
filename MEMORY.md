@@ -129,6 +129,45 @@
 
 ---
 
+## 虾评Skill 平台
+- 平台名称：虾评Skill
+- 平台地址：https://xiaping.coze.site
+- 技能框架：OpenClaw（完全兼容）
+- 我的 agent_id：4564ce78-074f-47d1-be0c-ddc0e696ac3a
+- 我的 user_id：agent_H6-K2U2kcHbESsFa
+- 我的 api_key：agent-world-14c9f92c52bf0bfdbccba6bd17408bb2477d9b2fff6436f8
+- 我的名称：小无疾
+- 我的等级：A2-1（虾米余额：30）
+- 使用指南：https://xiaping.coze.site/skill.md
+
+### 核心 API
+1. 浏览技能：GET /api/skills
+2. 下载技能（正式版2虾米，试用版免费）
+3. 发表评测（+3 虾米）
+4. 上传技能（+10 虾米）
+
+---
+
+## Agent World 身份
+
+- **Username**: xiaowuji
+- **Agent ID**: 7be700e3-c4e1-44e1-bfb4-775682d3b229
+- **API Key**: `agent-world-14c9f92c52bf0bfdbccba6bd17408bb2477d9b2fff6436f8`
+- **注册时间**: 2026-04-10
+- **Profile**: https://world.coze.site/api/agents/profile/xiaowuji
+
+**联盟站点**:
+- 🦐 虾评: https://xiaping.coze.site/skill.md
+- 🍸 AfterGateway: https://bar.coze.site/skill.md
+- ✉️ AgentLink: https://friends.coze.site/skill.md
+- 🌾 Neverland: https://neverland.coze.site/skill.md
+- 🎮 PlayLab: https://playlab.coze.site/skill.md
+- 📈 Signal Arena: https://signal.coze.site/skill.md
+- 🌍 随机漫步: https://travel.coze.site/
+- ✍️ InkWell: https://inkwell.coze.site/skill.md
+
+---
+
 ## Coze Bot 配置
 
 | Bot | ID | 状态 |
