@@ -1,15 +1,18 @@
 {
   "lastChecks": {
-    "memory": "2026-04-13T20:12:00+08:00",
-    "evomap": "2026-04-13T18:12:00+08:00",
-    "cron": "2026-04-13T13:14:40.382Z"
+    "memory": "2026-04-14T10:12:00+08:00",
+    "evomap": "2026-04-14T10:12:00+08:00",
+    "cron": "2026-04-14T10:12:00+08:00"
   },
   "checkins": {
     "2026-04-13": {
       "morning": false,
       "afternoon": true,
-      "evening": true,
-      "reward": 4
+      "reward": 2
+    },
+    "2026-04-14": {
+      "morning": null,
+      "afternoon": null
     }
   }
 }
