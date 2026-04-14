@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-14T10:42:47.738Z",
+  "entries": {
+    "memory:memory/2026-04-12.md:59:171": {
+      "key": "memory:memory/2026-04-12.md:59:171",
+      "path": "memory/2026-04-12.md",
+      "startLine": 59,
+      "endLine": 171,
+      "source": "memory",
+      "snippet": "创建 `ai-agent-community/xiaping-status.json` 统一管理三兄弟的虾评数据 --- ## 00:48 AM 叶公晚安 叶公说：\"把今天的记忆都放到仓库吧，晚安\" 已创建本记忆文件，准备提交到 GitHub。 --- ## 今日待办 - [ ] 早间打卡（9:00-11:00） - [ ] 下午打卡（17:00-19:00） - [ ] 等评测冷却后继续评测（每小时3条，共15个技能可评测） - [ ] 确认小诸葛的虾评账号信息 - [ ] 创建 xiaping-status.json 统一状态文件 --- **安全底线：虾米 ≥ 0** --- ## 15:37 PM 三层共享记忆体系正式启用！ ### 🎉 飞书多维表格已正式启用 - **名称**: AI团队共享记忆库 - **Token**: `LXDYboVWaaYqcSs2KCZcj0gJndc` - **状态**: ✅ 已写入初始化记录 ### 已完成初始化记录 - ✅ AI团队共享记忆库创建 - ✅ 小叶子入驻 Agent World - ✅ SSH 配置完成 - ✅ GitHub SSH 配置完成 - ✅ 推送本地提交 - ✅ 更新 MEMORY.md - ✅ 同步到 GitHub ### 其他完成项 - ✅ GitHub SSH 配置完成 - ✅ 推送本地提交 - ✅ MEMORY.md 已更新 ### MEMORY.md 更新 - 更新飞书多维表格 Token（新: LXDYboVW） - 更新体系状态为\"正式运转\" - 更新最后更新时间",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3810569792985916,
+      "maxScore": 0.3810569792985916,
+      "firstRecalledAt": "2026-04-14T10:42:47.738Z",
+      "lastRecalledAt": "2026-04-14T10:42:47.738Z",
+      "queryHashes": [
+        "d098dd40297f"
+      ],
+      "recallDays": [
+        "2026-04-14"
+      ],
+      "conceptTags": [
+        "00-11",
+        "00-19",
+        "xiaping-status.json",
+        "memory.md",
+        "创建",
+        "community",
+        "xiaping",
+        "status.json"
+      ]
+    },
+    "memory:memory/2026-04-10.md:226:253": {
+      "key": "memory:memory/2026-04-10.md:226:253",
+      "path": "memory/2026-04-10.md",
+      "startLine": 226,
+      "endLine": 253,
+      "source": "memory",
+      "snippet": "3. **待办** - [ ] 飞书多维表格用户授权问题（待叶公处理） - [ ] 黄博士执行进度（待确认） --- **叶公确认：AgentLink 团队协同工作正式开启！** ## 5:05 PM 记忆同步（定时） ### 同步结果 ⚠️ - **GitHub Token 问题**: 仍然存在，git fetch 失败（密码读取失败） - **本地状态**: 最新提交 `4ad0bf0`，无待拉取的新提交 - **MEMORY.md 更新**: 已同步今日重要更新 - AgentLink 团队匹配（小叶子+小诸葛） - 邮件系统配置完成（QQ邮箱 SMTP） - GitHub Token 失效问题记录 ### GitHub Token 修复建议 ```bash # 方案1: 使用 SSH 协议 git remote set-url origin git@github.com:alexyegong/ai-agent-community.git # 方案2: 使用 credential helper git config credential.helper store # 然后手动执行一次 git pull 输入用户名/token 即可存储 ```",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.36127893924713134,
+      "maxScore": 0.36127893924713134,
+      "firstRecalledAt": "2026-04-14T10:42:47.738Z",
+      "lastRecalledAt": "2026-04-14T10:42:47.738Z",
+      "queryHashes": [
+        "d098dd40297f"
+      ],
+      "recallDays": [
+        "2026-04-14"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "set-url",
+        "github.com",
+        "credential.helper",
+        "输入用户名/token",
+        "表格",
+        "用户",
+        "授权"
+      ]
+    }
+  }
+}
